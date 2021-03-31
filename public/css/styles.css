@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Ropa Sans';
+}
+
+body {
+  width: 585px;
+  border-radius: 10px;
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid gray;
+  color: gray;
+  font-size: 18px;
+}
+
+h1 {
+  color: black;
+  font-size: 54px;
+}
+
+img {
+  height: 60vh;
+}
+
+nav {
+  margin: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+p {
+  margin: 15px 0;
+  font-size: 24px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+input {
+  height: 40px;
+  width: 465px;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: black 0 0 2px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+input:focus {
+  box-shadow: black 0 0 5px;
+}
+
+button {
+  height: 40px;
+  background-color: midnightblue;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: black 0 0 5px;
+}
