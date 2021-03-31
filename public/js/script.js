@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
 
     message.textContent = 'Loading...'
 
-    fetch(`http://93.79.187.251:25565/weather?address=${place}`).then((response) => {
+    fetch(`/weather?address=${place}`).then((response) => {
         response.json().then((data) => {
             if (data.forecast) {
                 message.textContent = `[${data.place}] ${data.forecast}`
