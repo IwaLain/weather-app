@@ -38,6 +38,7 @@ h1 {
 
 img {
   height: 60vh;
+  max-width: 585px;
 }
 
 nav {
@@ -58,6 +59,12 @@ p {
 
 .content {
   flex-grow: 1;
+}
+
+.content > img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 input {
